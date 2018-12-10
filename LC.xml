@@ -1,0 +1,120 @@
+<MSG>
+	<HeaderCommon>
+		<MsgID>4a10f13b-b738-4c5a-b92d-4afac6c53da4</MsgID>
+		<InterfaceType>LC</InterfaceType>
+		<SourceGroupCompany />
+		<DestinationGroupCompany />
+		<SourceCompany>EPA</SourceCompany>
+		<DestinationCompany />
+		<CorrelationID />
+		<DestinationAddress/>
+		<SourceResponseAddress>https://tmsliteintegrationservice-wp3-UAT.cloud.coolfurnace.net/api/LcResponse</SourceResponseAddress>
+		<SourceUpdateStatusAddress>https://tmsliteintegrationservice-wp3-UAT.cloud.coolfurnace.net/api/LcUpdateStatus</SourceUpdateStatusAddress>
+		<DestinationUpdateStatusAddress/>
+		<MiddlewareUrlForPush />
+		<EmailNotification />
+		<ErrorCode />
+		<ErrorDescription />
+		<ProcessingErrorDescription />
+		<ContinueOnError>true</ContinueOnError>
+		<ComprehensiveLogging>true</ComprehensiveLogging>
+		<TransportStatus>New</TransportStatus>
+		<ProcessStatus />
+		<UpdateSourceOnReceive>true</UpdateSourceOnReceive>
+		<UpdateSourceOnDelivery>true</UpdateSourceOnDelivery>
+		<UpdateSourceAfterProcessing>true</UpdateSourceAfterProcessing>
+		<UpdateDestinationOnDelivery>true</UpdateDestinationOnDelivery>
+		<CallDestinationForProcessing>true</CallDestinationForProcessing>
+		<ObjectType>LoadConfirmation</ObjectType>
+		<ObjectName>LoadConfirmation</ObjectName>
+		<CommunicationType />
+	</HeaderCommon>
+	<Payload>
+		<any0>
+			<tripHeader>
+				<seqId>75</seqId>
+				<tripMovementNo>400304464</tripMovementNo>
+				<orderConfrm />
+				<deliveryDate>2018-12-09T00:00:00</deliveryDate>
+				<deliverySeq />
+				<folioNo />
+				<revisionNo />
+				<manuallyConfrm />
+				<terminalId>21023</terminalId>
+				<orderHeaders>
+					<orderHeader>
+						<operationType>Create</operationType>
+						<carrierNo>50001186</carrierNo>
+						<loadedDriverNo />
+						<supplierNo>2159102</supplierNo>
+						<custNo>15711</custNo>
+						<destinationNo>15713</destinationNo>
+						<orderType>Shipment</orderType>
+						<creator />
+						<manuallyEnter />
+						<billingType />
+						<invoiceRequired />
+						<deliveryFee />
+						<movementNo>400304465</movementNo>
+						<bol>400304465</bol>
+						<revisionNo />
+						<folioNo />
+						<orderEntryTime>2018-12-07T05:21:49</orderEntryTime>
+						<startLoadTime>2018-12-07T05:22:00</startLoadTime>
+						<endLoadTime>2018-12-07T05:23:00</endLoadTime>
+						<deliveryConfirm />
+						<tripMovementNo>400304464</tripMovementNo>
+						<userField1 />
+						<userField2 />
+						<overweightTrailer />
+						<manuallyComplete />
+						<vehicleNo>700</vehicleNo>
+						<terminalId>21023</terminalId>
+						<trailers>
+							<trailer>
+								<trailerNo>700</trailerNo>
+								<orderCompartments>
+									<orderCompartment>
+										<compartmentNo>1</compartmentNo>
+										<prodNo>10087</prodNo>
+										<orderedQty>2000</orderedQty>
+										<grossQty>2000</grossQty>
+										<netQty>2000</netQty>
+										<density />
+										<temperature />
+										<inBlendTolerance />
+										<price />
+										<dutyStatus />
+										<petroexBlendInd />
+										<invalidProdDensity />
+										<compartmentTrailerNo>700</compartmentTrailerNo>
+										<contractNo />
+										<orderRecipes>
+											<orderRecipe>
+												<tankCode />
+												<inventorySupplierNo />
+												<terminalProdNo>10087</terminalProdNo>
+												<terminalProdType />
+												<blendPercent />
+												<methodOfMeasure />
+												<overrideTempeatureEnabled />
+												<orderedQty>2000</orderedQty>
+												<grossQty>2000</grossQty>
+												<netQty>2000</netQty>
+												<density />
+												<temperature />
+												<leftOnTruck>False</leftOnTruck>
+											</orderRecipe>
+										</orderRecipes>
+										<bolNr />
+									</orderCompartment>
+								</orderCompartments>
+							</trailer>
+						</trailers>
+					</orderHeader>
+				</orderHeaders>
+			</tripHeader>
+		</any0>
+	</Payload>
+	<StatusPayload>StatusPayload</StatusPayload>
+</MSG>
